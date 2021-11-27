@@ -1,0 +1,48 @@
+/* header top */
+.my-border-color{
+    border-color: #4b4b52 !important;
+}
+
+/* hedaer main */
+.my-nav-bgcolor{
+    background-color: #003049 !important;
+}
+
+/* ----------------header-middle---------------- */
+
+/* header-middle-search-box */
+.my-btn-category{
+    background-color: #62626b !important;
+}
+.my-btn-category:hover{
+    background-color: #7f7f81 !important;
+}
+.my-btn-category:focus{
+    box-shadow: none;
+}
+.plc-size::-webkit-input-placeholder{
+    font-size: 15px;
+}
+
+@media screen and (max-width: 540px){
+    .fix-btn-size{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 540px){
+    .fix-header-top{
+        display: none;
+    }
+}
+
+/* header-middle-shopping-basket */
+.custom-basket-dropdown-toggle::after{
+    vertical-align: 2px;
+}
+.custom-basket-dropdown-toggle:focus{
+    box-shadow: none;
+    outline: 0 none;
+}
+.custom-dropdown-menu{
+    width: 15rem !important;
+}

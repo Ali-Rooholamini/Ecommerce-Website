@@ -1,0 +1,48 @@
+header section:last-child .modal{
+    color: black;
+}
+header section:last-child .modal .modal-header{
+    border-bottom: none;
+}
+header section:last-child .modal .modal-header h5{
+    font-size: 20px;
+}
+header section:last-child .modal .modal-body form #emailHelp{
+    font-size: 9px;
+}
+header section:last-child .modal .modal-body form .custom-form-label{
+    font-size: 15px;
+}
+header section:last-child .modal .modal-body form input[type=email],
+header section:last-child .modal .modal-body form input[type=password]{
+    border-radius: 0 !important;
+    border: transparent !important;
+    border-bottom: 1px solid #c9c8c8 !important;
+    direction: rtl;
+    transition: 200ms ease !important;
+}
+header section:last-child .modal .modal-body form input[type=email]:focus,
+header section:last-child .modal .modal-body form input[type=password]:focus,
+header section:last-child .modal .modal-body form input[type=checkbox]:focus{
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #c9c8c8 !important;
+}
+header section:last-child .modal .modal-body form input[type=checkbox]:hover{
+    cursor: pointer;
+}
+header section:last-child .modal .modal-body form input[type=checkbox]:checked{
+    background-color: rgb(13, 173, 13);
+}
+header section:last-child .modal .modal-body form input[type=email]::-webkit-input-placeholder,
+header section:last-child .modal .modal-body form input[type=password]::-webkit-input-placeholder{
+    font-size: 10px;
+}
+header section:last-child .modal .modal-footer{
+    border-top: none !important;
+}
+header section:last-child .modal .modal-footer{
+    font-size: 12px;
+    justify-content: space-around !important;
+    padding-top: 0 !important;
+}

@@ -1,0 +1,100 @@
+/* import files */
+@import url("nav.css");
+@import url("_special-offer.css");
+@import url("owl-custom-styles.css");
+@import url("_footer.css");
+@import url("_login-modal.css");
+@import url("_product-page.css");
+
+/* website Root File */
+:root{
+    --main-dark-blue-color: #003049;
+    --main-red-color: #D62828;
+    --main-orange-color: #F77F00;
+    --main-lemon-color: #FCBF49;
+    --main-gray-milk-color: #EAE2B7;
+    /* background-color */
+    --main-dark-blue-bgcolor: #003049;
+    --main-red-bgcolor: #D62828;
+    --main-orange-bgcolor: #F77F00;
+    --main-lemon-bgcolor: #FCBF49;
+    --main-gray-milk-bgcolor: #EAE2B7;
+}
+
+/* ---------------main color----------------- */
+.main-dark-blue-color{
+    color: #003049;
+}
+.main-red-color{
+    color: #D62828;
+}
+.main-orange-color{
+    color: #F77F00;
+}
+.main-lemon-color{
+    color: #FCBF49;
+}
+.main-gray-milk-color{
+    color: #EAE2B7;
+}
+/* ---bg--- */
+.main-dark-blue-bgcolor{
+    background-color: #003049;
+}
+.main-red-bgcolor{
+    background-color: #D62828;
+}
+.main-orange-bgcolor{
+    background-color: #F77F00;
+}
+.main-lemon-bgcolor{
+    background-color: #FCBF49;
+}
+.main-gray-milk-bgcolor{
+    background-color: #EAE2B7;
+}
+/* ------------finished main color------------- */
+
+/* main styles */
+@font-face {
+    font-family: vazir;
+    src: url("../fonts/Vazir-Medium.eot") format("eot"),
+         url("../fonts/Vazir-Medium.woff") format("woff"),
+         url("../fonts/Vazir-Medium.woff2") format("woff2");
+         font-weight: normal;
+         font-style: normal;
+}
+
+*{
+    font-family: vazir;
+    box-sizing: border-box;
+}
+html,body{
+    padding: 0;
+    margin: 0;
+    background-color: #f3f1f1;
+    overflow-x: hidden;
+}
+
+/* utility */
+
+/* slider and ads */
+.border-r10{
+    border-radius: 10px;
+}
+@media screen and (min-width: 1200px) {
+    .property-p{
+        font-size: 10px;
+    }
+    .property-i{
+        font-size: 20px;
+    }
+}
+
+/* category */
+.cat-hover{
+    transition: box-shadow 300ms ease;
+}
+.cat-hover:hover{
+    box-shadow: 0 0 3px 1px;
+}

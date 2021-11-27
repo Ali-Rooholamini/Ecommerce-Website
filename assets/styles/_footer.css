@@ -1,0 +1,83 @@
+footer{
+    margin-top: 80px;
+}
+footer .footer-news-input input{
+    direction: rtl;
+}
+footer .footer-news-input input[type=email]{
+    transition: 300ms ease;
+}
+footer .footer-news-input input[type=email]:focus{
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid black !important;
+}
+footer .footer-news-input input::-webkit-input-placeholder{
+    font-size: 14px;
+}
+footer .footer-news-input button{
+    font-size: 14px;
+    min-width: 20%;
+    max-width: 30%;
+}
+footer .footer-news-input button:focus-visible{
+    outline: none;
+}
+footer .footer-news-input button:focus{
+    outline: none!important;
+    box-shadow: none!important;
+    border: none!important;
+}
+@media screen and (min-width:768px){
+    footer{
+        margin-top: 120px;
+    }
+    footer .footer-news{
+        position: relative;
+        top: -60px;
+        box-shadow: 0 0 11px 5px #efefef;
+    }
+    footer .footer-news:first-child{
+        padding-bottom: 10px !important;
+    }
+    footer .footer-main-section{
+        padding-top: 0px !important;
+    }
+}
+
+/* main section of footer */
+footer .footer-main-section > div p span{
+    padding-bottom: 5px;
+    border-bottom: 3px solid #494949;
+    font-size: 15px;
+}
+footer .footer-main-section > div .custom-nav{
+    font-size: 14px;
+}
+footer .footer-main-section > div .custom-nav .custom-nav-link{
+    color: #242424;
+    display: inline;
+}
+footer .footer-main-section > div .custom-nav .custom-nav-link:hover{
+    color: #8a8a8a;
+}
+footer .footer-main-section div:last-child .footer-social a i{
+    font-size: 26px;
+    color: #868686;
+    transition: 300ms ease;
+}
+footer .footer-main-section div:last-child .footer-social a i.fa-telegram-plane:hover{
+    color: #207eeb;
+}
+footer .footer-main-section div:last-child .footer-social a i.fa-instagram:hover{
+    color: #e91f51;
+}
+footer .footer-main-section div:last-child .footer-social a i.fa-twitter:hover{
+    color: #0668d8;
+}
+footer .footer-main-section div:last-child .footer-social a i.fa-youtube:hover{
+    color: #e71f1f;
+}
+footer .footer-main-section div:last-child .footer-social a i.fa-facebook-f:hover{
+    color: #4295f5;
+}

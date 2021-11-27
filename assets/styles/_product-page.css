@@ -1,0 +1,133 @@
+.breadcrumb-item + .breadcrumb-item::before {
+    transform: rotateY(180deg);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    content: var(--bs-breadcrumb-divider, "/");
+}
+.breadcrumb-item{
+    font-size: 14px;
+}
+
+/* interact Items Class */
+section .interact-items a{
+    text-decoration: none;
+    color: black;
+}
+section .interact-items a i{
+    font-size: 20px;
+}
+section .interact-items a i.fa-bell{
+    color: rgb(153, 131, 8);
+}
+section .interact-items a i.fa-heart{
+    color: red;
+}
+
+/* explain product */
+section .explain{
+    font-size: 15px;
+    text-align: justify;
+    line-height: 33px;
+}
+
+/* under line content */
+section .explain + div > p{
+    font-size: 13px;
+}
+
+/* main product feature */
+section .main-product-feature p span{
+    font-size: 16px;
+}
+section .main-product-feature nav li{
+    font-size: 13px;
+}
+section .main-product-feature nav li i{
+    font-size: 12px;
+    color: rgb(75, 75, 224);
+}
+
+/* product-detail-Title */
+section .pro-detail .nav-tabs .nav-link.active{
+    border-radius: 0;
+    border-top: 4px solid red;
+}
+section .pro-detail .nav-tabs .nav-link:hover{
+    border-radius: 0;
+}
+section .pro-detail .nav-tabs .nav-link:focus{
+    outline: none;
+    box-shadow: none;
+}
+section .pro-detail .nav-tabs .nav-link.active:focus{
+    outline: none;
+    box-shadow: none;
+}
+@media screen and (max-width: 575px) {
+    section .pro-detail .nav-tabs .nav-link.active{
+        border-bottom: 2px solid #efefef;
+    }
+    section .pro-detail .nav-tabs{
+        padding-bottom: 15px;
+    }
+}
+
+/* product tab-pane sections */
+section .tab-content #nav-review p{
+    font-size: 16px;
+    line-height: 35px;
+    text-align: justify;
+}
+@media screen and (max-width: 767px) {
+    section .tab-content #nav-review p{
+        padding: 0 !important;
+        padding-top: 21px !important;
+        font-size: 16px;
+    }
+}
+section .tab-content .bg-light-developer-cut{
+    background-color: #fcfcfc;
+}
+section .tab-content .last-review-section ul > li p{
+    padding-top: 8px !important;
+}
+section .tab-content .last-review-section ul{
+    border-right: 3px solid #efefef;
+}
+section .tab-content .last-review-section ul > li p .fa-dot-circle:before {
+    content: "\f192";
+    position: absolute;
+    top: -10px;
+    right: -17px;
+    color: #efefef;
+    font-size: 30px;
+}
+section .tab-content .last-review-section ul > li div div{
+    margin: 0 auto;
+}
+@media screen and (min-width: 767px) {
+    section .tab-content .last-review-section ul > li div div{
+        width: 45%;
+    }
+}
+section .tab-content #nav-details div > *{
+    font-size: 15px;
+}
+section #nav-comment .media{
+    padding-bottom: 5px !important;
+    border-bottom: 3px solid #efefef;
+    margin: unset !important;
+}
+section #nav-comment .comment-form div input{
+    direction: rtl;
+    font-size: 15px;
+}
+section #nav-comment .comment-form div textarea{
+    direction: rtl;
+    padding: 5px !important;
+    padding-top: 28px !important;
+    font-size: 15px;
+}
+section #nav-comment .comment-form div input::-webkit-input-placeholder{
+    font-size: 14px;
+}

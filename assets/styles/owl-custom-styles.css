@@ -1,0 +1,65 @@
+.owl-carousel .custom-card{
+    border: none!important;
+    border-color: transparent !important;
+    transition: 300ms;
+}
+.owl-carousel .card-hover:hover .custom-card{
+   
+    box-shadow: 0 0 10px 6px #efefef;
+}
+.custom-owl-carousel .owl-nav{
+    position: absolute;
+    width: 100%;
+    top: -30px;
+    left: 21px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.owl-carousel .owl-nav button.owl-next,.owl-carousel .owl-nav button.owl-prev{
+    width: 27px;
+    background: #fff;
+    border: 1px solid #f8e0e2;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.owl-carousel .owl-nav button.owl-next:focus-visible,.owl-carousel .owl-nav button.owl-prev:focus-visible{
+    outline: none;
+}
+.owl-carousel .owl-nav button.owl-next span:focus-visible,.owl-carousel .owl-nav button.owl-prev span:focus-visible{
+    outline: none;
+}
+.owl-carousel .owl-nav button.owl-next:active,.owl-carousel .owl-nav button.owl-prev:active{
+    background-color: #dc3545;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    margin-left: 10px;
+}
+.owl-carousel .owl-nav button.owl-next span,.owl-carousel .owl-nav button.owl-prev span{
+    font-size: 30px;
+}
+
+.owl-carousel .owl-dots{
+    direction: rtl;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.owl-carousel .owl-dots button.owl-dot.active{
+    background-color: #dc3545;
+}
+.owl-carousel .owl-dots:focus-visible,.owl-carousel .owl-dots button.owl-dot:focus-visible{
+    outline: none;
+}
+.owl-carousel .owl-dots > button.owl-dot{
+    width: 10px;
+    height: 10px;
+    background: #b9b7b7;
+    border-radius: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
